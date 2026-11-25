@@ -1,0 +1,4 @@
+PORT=5000
+CMS_DATABASE_URL="postgresql://postgres:password@localhost:5432/report_cms"
+ENCRYPTION_KEY="replace-with-a-32-char-secret-key"
+JWT_SECRET="replace-with-a-long-random-jwt-secret"
