@@ -9,11 +9,11 @@ import { BucketsModule } from './buckets/buckets.module.js';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
+    AuthModule,
     DatabaseModule,
     DatasourceModule,
-    ReportsModule,
-    AuthModule,
     BucketsModule,
+    ReportsModule,
   ],
 })
-export class AppModule {}
+export class AppModule { }
